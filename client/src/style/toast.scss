@@ -1,0 +1,12 @@
+.toast-container {
+  position: fixed;
+  right: -300px;
+  top: 55px;
+  width: 300px;
+  transition: 1s;
+  z-index: 999;
+
+  &.is-active {
+    right: 0;
+  }
+}
